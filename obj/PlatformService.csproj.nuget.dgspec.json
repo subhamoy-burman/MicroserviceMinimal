@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burmas3\\source\\repos\\PlatformService\\PlatformService.csproj": {}
+    "c:\\Users\\burmas3\\source\\repos\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burmas3\\source\\repos\\PlatformService\\PlatformService.csproj": {
+    "c:\\Users\\burmas3\\source\\repos\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burmas3\\source\\repos\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "c:\\Users\\burmas3\\source\\repos\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "C:\\Users\\burmas3\\source\\repos\\PlatformService\\PlatformService.csproj",
+        "projectPath": "c:\\Users\\burmas3\\source\\repos\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\burmas3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burmas3\\source\\repos\\PlatformService\\obj\\",
+        "outputPath": "c:\\Users\\burmas3\\source\\repos\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
