@@ -11,6 +11,7 @@ internal class Program
         builder.Services.AddControllers();
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseInMemoryDatabase("InMem"));
+        builder.Services.AddScoped<IPlatformRepo,PlatformRepo>();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
@@ -29,6 +30,8 @@ internal class Program
         app.UseAuthorization();
 
         app.MapControllers();
+
+        PrepDb.PrepPopulation(app);
 
         app.Run();
     }
